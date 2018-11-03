@@ -22,3 +22,4 @@ erl_crash.dump
 # Ignore package tarball (built via "mix hex.build").
 grisp_wifi_connect-*.tar
 
+/grisp/grisp_base/files/wpa_supplicant.conf

@@ -1,0 +1,10 @@
+%{
+  "artificery": {:hex, :artificery, "0.2.6", "f602909757263f7897130cbd006b0e40514a541b148d366ad65b89236b93497a", [:mix], [], "hexpm"},
+  "bbmustache": {:hex, :bbmustache, "1.6.1", "9fb63fa60bd53afbf47f02e6d8bd6b2beafc068e02e20975254dc7461fd4f397", [:rebar3], [], "hexpm"},
+  "distillery": {:hex, :distillery, "2.0.11", "9259399cb64c88e2df6bbaef29e09b0a81d16d0155203ebf65c6be7b95f7b744", [:mix], [{:artificery, "~> 0.2", [hex: :artificery, repo: "hexpm", optional: false]}], "hexpm"},
+  "epmd": {:git, "https://github.com/erlang/epmd.git", "c27e1e3d37f9bb7f657782be5809b78a58b98b4d", []},
+  "grisp": {:hex, :grisp, "1.1.4", "5c22d6f9c0b47a90f132e56ac9d85659b5ac469baf04b4c98ee1e0ef5894319b", [:rebar3], [{:mapz, "0.3.0", [hex: :mapz, repo: "hexpm", optional: false]}], "hexpm"},
+  "grisp_tools": {:hex, :grisp_tools, "0.2.4", "a28c4f8fb58edfbdec4c858e8f7970180ab2d9da1304c979af38d87a84521dc3", [:rebar3], [{:bbmustache, "~>1.6.0", [hex: :bbmustache, repo: "hexpm", optional: false]}, {:mapz, "~>0.3.0", [hex: :mapz, repo: "hexpm", optional: false]}], "hexpm"},
+  "mapz": {:hex, :mapz, "0.3.0", "438d24746ce5a252101e00b2032efdf7fc69eb32689d3b805de5e6dd7f52614f", [:rebar3], [], "hexpm"},
+  "mix_grisp": {:hex, :mix_grisp, "0.1.2", "6e657bf68b24267506dae7322f3d502a8bbce68ac93fbb9163e2f73e16bc806a", [:mix], [{:distillery, "~> 2.0", [hex: :distillery, repo: "hexpm", optional: false]}, {:grisp_tools, "~> 0.2", [hex: :grisp_tools, repo: "hexpm", optional: false]}], "hexpm"},
+}

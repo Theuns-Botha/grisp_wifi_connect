@@ -30,7 +30,7 @@ defmodule GrispWifiConnect.MixProject do
     [
       {:grisp, "~> 1.1"},
       {:mix_grisp, "~> 0.1.0", only: :dev},
-      {:epmd, git: "https://github.com/erlang/epmd.git"}
+      {:epmd, git: "https://github.com/erlang/epmd.git", ref: "4d1a59", app: false}
     ]
   end
 end

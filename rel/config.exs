@@ -11,6 +11,7 @@ environment :grisp do
   set include_erts: true
   set include_src: false
   set cookie: :"GRiSP"
+  #set vm_args: "rel/vm.args"
 end
 
 release :grisp_wifi_connect do
